@@ -1,3 +1,5 @@
+//这个代码经过测试，有时候断电显示定时1，有时候设置了定时显示定时2
+
 // 向EEPROM写入数据的函数
 void writeEEPROM(int address, const char* data) {
   Wire.beginTransmission(EEPROM_ADDRESS);
